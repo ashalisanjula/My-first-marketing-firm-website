@@ -125,12 +125,13 @@ nav ul li a{
     background: #2b2b2b;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
 }
 .card{
-    width: 380px;
-    perspective: 1000px;
+    width: 400px;
+    perspective: 800px;
     cursor: pointer;
+    
 }
 .card-inner{
     position: relative;
@@ -143,8 +144,8 @@ nav ul li a{
     backface-visibility: hidden;
 }
 .front-face img{
-    width: 550px;
-    height: 60vh;
+    width: 350px;
+    
     border-radius: 10px;
 }
 .back-face{
@@ -158,14 +159,15 @@ nav ul li a{
     left: 0;
     border-radius: 10px;
     display: flex;
+    align-items:center;
     justify-content: center;
     flex-direction: column;
     transform: rotateY(180deg);
 }
 .back-face h2{
-    font-size:50px;
+    font-size:40px;
     margin-top: 10px;
-    font-weight: 600;
+    font-weight: 500;
 }
 .back-face p{
     font-size:26px;
